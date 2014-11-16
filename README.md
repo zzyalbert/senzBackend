@@ -11,3 +11,5 @@ senz后台，包括
 4、poi地理围栏－poi_generator
 
 5、贝叶斯分类器－naive_bayes
+
+依赖：requests、bs4（beautiful soup 4）
