@@ -12,4 +12,4 @@ senz后台，包括
 
 5、贝叶斯分类器－naive_bayes
 
-依赖：requests、bs4（beautiful soup 4）
+依赖项：bidict、requests、bs4（beautiful soup 4）
