@@ -12,4 +12,6 @@ senz后台，包括
 
 5、贝叶斯分类器－naive_bayes
 
+6、单元测试－ test
+
 依赖项：bidict、requests、bs4（beautiful soup 4）
