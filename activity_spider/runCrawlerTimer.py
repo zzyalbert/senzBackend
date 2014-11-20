@@ -8,8 +8,7 @@ import sys
 sys.path.append("../utils")
 from timer import SchedTimer
 
-def runCrawlers():
-    print '爬虫将在24点运行...'
+def multi_thread_crawl():
     damai = Thread(target=DamaiSpider().crawl)
     douban = Thread(target=DoubanSpider().crawl)
     huodongxing = Thread(target=HuodongxingSpider().crawl)
@@ -23,7 +22,10 @@ def runCrawlers():
     huodongxing.join()
     print '本次爬取结束'
 
-if __name__=="__main__":
-    runCrawlers()
+def runCrawler():
+    print '爬虫将在24点运行...'
     t = SchedTimer(24,00,00)
-    t.start(runCrawlers)
+    t.start(multi_thread_crawl)
+
+if __name__=="__main__":
+    runCrawler()

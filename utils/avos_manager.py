@@ -99,16 +99,6 @@ class AvosManager(object):
                 res = AvosClass._remove_avos(className,data)
                 if 'error' in json.loads(res.content):
                     print res.content
-            
-
-
-
-if __name__ == "__main__id":
-        avosManager = AvosManager()
-        #id = avosManager.getUserIdByName('zhong1')
-        id = avosManager.getIdByCondition('TestClass',name='b',test_num=111)
-        print id
-        #avosManager.saveData('geopointDemo',dict(geopoint=gps2GeoPoint(11,23)))
 
 
 
