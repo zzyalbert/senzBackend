@@ -6,12 +6,12 @@ from poiGenerator import *
 
 def testAddPoiGroup():
         poi = PoiGenerator()
-        poi.addPoiGroupByName('跑步','zhong1')
+        poi.addPoiGroupByName('跑步','zhong2')
 
 def testAddPoiGroupMember():
         poi = PoiGenerator()
         for i in range(1,6):
-                poi.addPoiGroupMemberByName('跑步','zhong1',11+i,113)
+                poi.addPoiGroupMemberByName('跑步','zhong2',11+i,113)
 
 def testDeleteGroupMember():
         poi = PoiGenerator()

@@ -121,7 +121,7 @@ if __name__ == "__main__":
         className = "testDate"
         #avosManager.saveData(className,dataDict)
         #avosManager.saveActivity(dataDict)
-        avosManager.updateDataByName('activities','《文成公主》大型实景剧',dict(ticket=200))
+        avosManager.updateDataByName('activities','《文成公主》大型实景剧',dict(ticket='200'))
         '''
         AvosClass.app_settings = [settings.avos_app_id, settings.avos_app_key]
         res = AvosClass.save(dataDict)

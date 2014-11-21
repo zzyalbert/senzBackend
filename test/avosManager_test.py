@@ -38,7 +38,7 @@ def testSaveActivity():
 
 def testUpdate():
         avosManager = AvosManager()
-        avosManager.updateDataByName('activities','《文成公主》大型实景剧',dict(ticket=200))
+        avosManager.updateDataByName('activities','《文成公主》大型实景剧',dict(ticket='200'))
 
 
 def testUser():
@@ -53,6 +53,7 @@ def testGetId():
         print id
 
 def testGeoPoint():
+        avosManager = AvosManager()
         avosManager.saveData('geopointDemo',dict(geopoint=gps2GeoPoint(11,23)))
         
 def main():
