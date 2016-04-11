@@ -1,6 +1,6 @@
 senzBackend 说明
 ===========
-senz后台，包括
+senz的后台，包括
 
 1、公用工具包－utils
 
